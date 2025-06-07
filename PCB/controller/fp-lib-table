@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SparkFun-Switch")(type "KiCad")(uri "C:/Users/aaron/Documents/GitHub/SparkFun-KiCad-Libraries/Footprints/SparkFun-Switch.pretty")(options "")(descr ""))
+)
