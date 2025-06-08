@@ -1,8 +1,10 @@
 hours: 3h
 
+
 # 06/04/2025
 
 hours: 3h
+
 
 Bunch of PCB progress. Layed out. Just need part sourcing and routing.
 
@@ -15,6 +17,20 @@ Bunch of PCB progress. Layed out. Just need part sourcing and routing.
 
 hours: 2h
 
+
 PCB routing is done. Some ammount of part sourcing is done. Need to finish sourcing the rest of the parts.
 
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/1cd7c51d8a2a5c1952590e0d563f01b91fe71aaa_image.png)
+# 06/08/2025
+hours: 4h
+
+
+Added Boost converter to the PCB. For 5v rail on battery.
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/a868b5056217dde40ef0f760efd6a0b8ae36e384_image.png)
+
+Added voltage divider for the battery voltage measurement and sense for usb power.
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/90afcab2c56bae4bee9389e896d9dc1bba74f5d0_image.png)
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/c2f519e4b966a5b47db57378d283832c749c3beb_image.png)
+
+All fits nicely in the same size of the PCB.
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/9f4c7476ad143988d9ea0cb786a5d1b26d1eba8a_image.png)
