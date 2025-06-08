@@ -1,3 +1,9 @@
+---
+title: "µController"
+author: "RunTheBot"
+description: "µController (micro controller) a tiny battery powered game controller design for one game...unrailed"
+---
+
 hours: 9h
 
 # 06/04/2025
