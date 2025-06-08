@@ -2161,7 +2161,7 @@
 			(pinfunction "GND")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.0254)
-			(uuid "7d33188f-7cca-415f-bea4-46b72fe7bb8c")
+			(uuid "f2f61a77-3f6d-46de-96a1-f43ae16a4243")
 		)
 		(pad "2" smd custom
 			(at 2.794 0 90)
@@ -2197,7 +2197,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "8a9d888d-76bb-4f3e-aa8d-a167cd8969f0")
+			(uuid "f2f61a77-3f6d-46de-96a1-f43ae16a4243")
 		)
 		(pad "3" smd rect
 			(at -13.6961 1.9068 90)
@@ -2506,6 +2506,17 @@
 			(uuid "1f960126-4e59-44ce-b363-8d95e314798c")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/aaron/Documents/GitHub/esp32s3/3d models/NanoS3/NanoS3.STEP"
+			(offset
+				(xyz -13.5 -6.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "footprints:SW_Cherry_MX_PCB_1.00u"
 		(layer "F.Cu")
@@ -3261,13 +3272,24 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_XKB_U262-16XN-4BVC11.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -50 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "C:/Users/aaron/Documents/KiCad/9.0/3dmodels/USB - C.step"
+			(offset
+				(xyz 14 46.5 3.47)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -180)
 			)
 		)
 	)
