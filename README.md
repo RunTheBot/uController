@@ -5,6 +5,7 @@
 This way, you can ruin friendships with unrailed anywhere, anytime.
 
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ae90924d7d2270a7a03cd36875605d7d6f476b9f_image.png)
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/9f4c7476ad143988d9ea0cb786a5d1b26d1eba8a_image.png)
 
 # Features
 - Hall effect PS4 style joysticks
