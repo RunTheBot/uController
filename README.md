@@ -21,6 +21,7 @@ This way, you can ruin friendships with unrailed anywhere, anytime.
   - Disables boost converter and neopixel
   - Disables Wireless connection
 - Ultra Small: 79mm x 33mm
+- Wireless
 
 # BOM
 
