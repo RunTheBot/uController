@@ -50,7 +50,7 @@ CADing...
 BOM and lots of minor fixes. I decided to go with a BetaFPV battery and a cable instead of a JST connector. 
 
 # Firmware
-hours: 2h
+hours: 3h
 
 HID is painful. Just found a library to do it instead of writing it myself. I wasted a lot of time.
 
