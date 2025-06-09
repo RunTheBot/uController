@@ -5468,7 +5468,7 @@
 			)
 		)
 	)
-	(global_label "VBAT"
+	(global_label "3.3V"
 		(shape input)
 		(at 191.77 26.67 90)
 		(fields_autoplaced yes)
@@ -5480,7 +5480,7 @@
 		)
 		(uuid "588b9646-24af-406b-b931-7cd5429f2596")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.77 19.27 90)
+			(at 191.77 19.5724 90)
 			(effects
 				(font
 					(size 1.27 1.27)

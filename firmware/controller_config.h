@@ -41,6 +41,17 @@
 #define LED_BLINK_INTERVAL    500   // milliseconds (when not connected)
 #define LED_STARTUP_BLINKS    3     // Number of blinks on startup
 
+// Deep sleep configuration
+#define SLEEP_TIMEOUT_MS         300000  // 5 minutes of inactivity before sleep
+#define LOW_BATTERY_SLEEP_MS     30000   // 30 seconds between wake cycles when low battery
+#define ACTIVITY_THRESHOLD       50      // Joystick movement threshold to detect activity
+#define LOW_BATTERY_THRESHOLD    15      // Battery percentage threshold for extended sleep
+
+// Wake up sources - Require ALL 3 buttons pressed simultaneously
+#define WAKE_BUTTON_BITMASK      0x2A0000  // USE (GPIO21), DASH (GPIO18), and SEL (GPIO17) buttons
+// Bitmask calculation: (1ULL << USE_PIN) | (1ULL << DASH_PIN) | (1ULL << SEL_PIN) 
+// = (1ULL << 21) | (1ULL << 18) | (1ULL << 17) = 0x2A0000
+
 // Button mapping for Unrailed game
 typedef enum {
     GAMEPAD_BUTTON_A = 1,      // USE button -> A
