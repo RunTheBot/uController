@@ -4,7 +4,7 @@ author: "RunTheBot"
 description: "µController (micro controller) a tiny battery powered game controller design for one game...unrailed"
 ---
 
-hours: 9h
+hours: 17h
 
 # 06/04/2025
 
@@ -27,7 +27,7 @@ PCB routing is done. Some ammount of part sourcing is done. Need to finish sourc
 
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/1cd7c51d8a2a5c1952590e0d563f01b91fe71aaa_image.png)
 # 06/08/2025
-hours: 4h
+hours: 12h
 
 
 Added Boost converter to the PCB. For 5v rail on battery.
@@ -39,3 +39,13 @@ Added voltage divider for the battery voltage measurement and sense for usb powe
 
 All fits nicely in the same size of the PCB.
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/9f4c7476ad143988d9ea0cb786a5d1b26d1eba8a_image.png)
+
+CADing...
+
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/1a10bd01de3cc271c74322a63a1ff7c2ffc72849_image.png)
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/5d50d9335ea0b6fdc14eed1ff1339b5c0a675bdc_image.png)
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/7144f1df382f2abd4dc269cb80f44b3a951b4f43_image.png)
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/622865fcbeac06e5167a201b37c92d95fd5c9452_image.png)
+
+BOM and lots of minor fixes. I decided to go with a BetaFPV battery and a cable instead of a JST connector. 
+

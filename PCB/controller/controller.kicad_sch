@@ -4906,6 +4906,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 46.99) (xy 246.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bc57a9-37c6-4812-8ee2-a1f3ae01df6b")
+	)
+	(wire
+		(pts
 			(xy 240.03 46.99) (xy 246.38 46.99)
 		)
 		(stroke
@@ -4923,16 +4933,6 @@
 			(type default)
 		)
 		(uuid "d835b64f-98a6-43a3-83cb-01833678e14a")
-	)
-	(wire
-		(pts
-			(xy 246.38 63.5) (xy 246.38 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9385b5e-8367-4a78-a370-7ff682f9cbb8")
 	)
 	(wire
 		(pts
@@ -4973,16 +4973,6 @@
 			(type default)
 		)
 		(uuid "e3689a27-d92e-43d0-83b9-ca7b0d434e67")
-	)
-	(wire
-		(pts
-			(xy 246.38 46.99) (xy 246.38 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ecb8b1-e9a8-4406-b49f-46271b740e09")
 	)
 	(wire
 		(pts
@@ -5103,6 +5093,28 @@
 			(justify right bottom)
 		)
 		(uuid "46ebbbe7-b967-406c-88e2-e3ac055b8d4a")
+	)
+	(global_label "BOOT"
+		(shape input)
+		(at 27.94 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00ff1786-2911-4ec6-8c39-3503c45ab29e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.0562 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "D+"
 		(shape input)
@@ -5632,6 +5644,28 @@
 			)
 		)
 	)
+	(global_label "LED_LV"
+		(shape input)
+		(at 27.94 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81278f57-384c-4cf1-8067-a9cf49cc7155")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.4234 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SEL"
 		(shape input)
 		(at 59.69 167.64 180)
@@ -5645,28 +5679,6 @@
 		(uuid "849652e1-0543-4817-a2f1-a10fac7a90ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 53.3182 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BOOT"
-		(shape input)
-		(at 27.94 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8745d5a4-f0c0-44ee-bdba-1bb3d6a8be87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.0562 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,28 +5970,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_LV"
-		(shape input)
-		(at 58.42 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9de4ac0-4a28-423e-8676-77cf1ee9c4e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.9366 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6429,7 +6419,7 @@
 				)
 			)
 		)
-		(property "Value" "15kΩ"
+		(property "Value" "15k"
 			(at 139.7 121.92 90)
 			(effects
 				(font
@@ -6903,14 +6893,14 @@
 		(dnp no)
 		(uuid "4b594a71-4063-4f98-ace4-e272fb21293f")
 		(property "Reference" "R2"
-			(at 104.14 59.182 90)
+			(at 103.886 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R5.1kΩ"
+		(property "Value" "R5.1k"
 			(at 104.14 60.706 90)
 			(effects
 				(font
@@ -7246,7 +7236,7 @@
 				)
 			)
 		)
-		(property "Value" "R5.1kΩ"
+		(property "Value" "R5.1k"
 			(at 104.14 52.07 90)
 			(effects
 				(font
@@ -7432,6 +7422,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 246.38 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6efe761e-6ce3-40e9-980a-c8b2cd58b32d")
+		(property "Reference" "C5"
+			(at 250.19 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 250.19 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 245.4148 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3013184b-d7c2-4aae-b97c-6ea182c07402")
+		)
+		(pin "1"
+			(uuid "facbc49a-4f18-4290-954b-d90db5868114")
+		)
+		(instances
+			(project "controller"
+				(path "/ce012b05-d66b-413a-8b7d-ace79b999db0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 130.81 107.95 90)
 		(unit 1)
@@ -7516,7 +7576,7 @@
 				)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "100k"
 			(at 35.56 128.27 90)
 			(effects
 				(font
@@ -7717,7 +7777,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 127 121.92 90)
 			(effects
 				(font
@@ -7785,7 +7845,7 @@
 				)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "100k"
 			(at 25.4 128.27 90)
 			(effects
 				(font
@@ -7830,75 +7890,6 @@
 			(project ""
 				(path "/ce012b05-d66b-413a-8b7d-ace79b999db0"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 246.38 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ea5c286-4be2-4c3e-b2e9-54ccd664d085")
-		(property "Reference" "C5"
-			(at 236.474 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 236.474 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 246.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 246.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d05b2dfe-a89f-4e5a-9e02-bbd7d4825112")
-		)
-		(pin "1"
-			(uuid "5ce70970-bbe3-4b90-9cd9-21ef50b5aa71")
-		)
-		(instances
-			(project "controller"
-				(path "/ce012b05-d66b-413a-8b7d-ace79b999db0"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8200,7 +8191,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 248.92 130.81 90)
 			(effects
 				(font
@@ -8401,7 +8392,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 233.68 130.81 90)
 			(effects
 				(font
@@ -9242,7 +9233,7 @@
 				)
 			)
 		)
-		(property "Value" "120Ω"
+		(property "Value" "120"
 			(at 26.67 158.496 90)
 			(effects
 				(font
