@@ -4,7 +4,7 @@ author: "RunTheBot"
 description: "µController (micro controller) a tiny battery powered game controller design for one game...unrailed"
 ---
 
-hours: 17h
+hours: 19h
 
 # 06/04/2025
 
@@ -54,3 +54,6 @@ hours: 3h
 
 HID is painful. Just found a library to do it instead of writing it myself. I wasted a lot of time.
 
+# June 29th
+Hours: 2
+Soldered the entire thing. I kinda broke the Nano s3 by overheating it sooooooo. I need to bodge wire a xiao in. I should have used it to start.
