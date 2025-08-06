@@ -57,3 +57,7 @@ HID is painful. Just found a library to do it instead of writing it myself. I wa
 # June 29th
 Hours: 2
 Soldered the entire thing. I kinda broke the Nano s3 by overheating it sooooooo. I need to bodge wire a xiao in. I should have used it to start.
+
+# Aug 2nd
+Hours: 2h
+Dodge wired it. Turns out one hall effect sensor doesn't work. Otherwise, it's completely working. I'm about to travel so demo time!
