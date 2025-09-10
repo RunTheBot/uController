@@ -57,6 +57,7 @@ HID is painful. Just found a library to do it instead of writing it myself. I wa
 # June 29th
 Hours: 2
 Soldered the entire thing. I kinda broke the Nano s3 by overheating it sooooooo. I need to bodge wire a xiao in. I should have used it to start.
+!(uController with another one of my projects)[https://hc-cdn.hel1.your-objectstorage.com/s/v3/76c4fca138516f8fa4c07aa52cdee85a6682b761_1000004217.jpg]
 
 # Aug 2nd
 Hours: 2h
